@@ -3,11 +3,11 @@ from src.part2 import TrebuchetPart2
 
 class TestTrebuchetPart2(unittest.TestCase):
 
-    def test_word(self):
+    def test_word_digit(self):
         lines = ["eightwothree"]
         self.assertEqual(TrebuchetPart2().calculate(lines), 83)
 
-    def test_numeric(self):
+    def test_numeric_digits(self):
         lines = ["4nineeightseven2"]
         self.assertEqual(TrebuchetPart2().calculate(lines), 42)
 

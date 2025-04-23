@@ -10,7 +10,7 @@ class TrebuchetPart2:
 
     def calculate(self, lines):
         """
-        Extracts both numeric digits and number words from each line.
+        Extracts both numeric digits and spelled letter digits from each line.
         Converts them to digit strings, combines first and last found digits,
         and returns the total sum across all lines.
         """
